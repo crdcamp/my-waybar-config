@@ -1,3 +1,4 @@
+//This whole thing needs to be cleaned up man...
 {
     "modules-left": ["hyprland/workspaces", "hyprland/submap"],
     "modules-center": ["clock", "idle_inhibitor"],
