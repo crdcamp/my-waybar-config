@@ -1,9 +1,9 @@
 {
-    "modules-left": ["hyprland/workspaces", "sway/mode"],
+    "modules-left": ["hyprland/workspaces", "hyprland/submap"],
     "modules-center": ["clock", "idle_inhibitor"],
     "modules-right": ["tray", "custom/scratchpad-indicator", "pulseaudio", "custom/power"],
 
-    "sway/mode": {
+    "hyprland/submap": {
         "format": "<span style=\"italic\">{}</span>"
     },
     "network": {
