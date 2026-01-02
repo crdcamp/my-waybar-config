@@ -15,11 +15,8 @@
         "hyprland/workspaces"
     ],
     "modules-right": [
-        "mpd",
-        "idle_inhibitor",
         "pulseaudio",
         "network",
-        "power-profiles-daemon",
         "memory",
         "temperature",
         "battery",
