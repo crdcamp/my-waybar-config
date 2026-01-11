@@ -7,5 +7,20 @@
 }
 
 window#waybar {
-    background-color: @primary_container;
+    background-color: @inverse_primary;
+    border-bottom: 0px solid #ffffff;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.modules-left {
+    margin: 8px 0px 8px 10px;
+}
+
+.modules-right {
+    margin: 8px 10px 8px 0px;
+}
+
+.modules-center {
+    margin: 8px 0px 8px 0px;
 }
