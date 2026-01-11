@@ -22,5 +22,16 @@ window#waybar {
 }
 
 .modules-center {
-    margin: 8px 0px 8px 0px;
+    margin: 5px 0px 8px 0px;
+}
+
+#workspaces button.active {
+    background-color: #000;
+    border-radius: 30px;
+}
+
+#workspaces button.focused {
+    color: #a6adc8;
+    background: #eba0ac;
+    border-radius: 10px;
 }
