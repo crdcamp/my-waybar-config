@@ -1,0 +1,11 @@
+@import "colors.css";
+
+* {
+    font-family: "LiterationMono Nerd Font";
+    border: none;
+    border-radius: 11px;
+}
+
+window#waybar {
+    background-color: @primary_container;
+}
