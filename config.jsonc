@@ -7,14 +7,13 @@
   "spacing": 4, // Gaps between modules in pixels
   "modules-left": ["hyprland/window"], // Title of the current active window
   "modules-center": ["hyprland/workspaces"], // Numbers for workspaces
-  "modules-right": ["clock"],
+  "modules-right": ["memory", "backlight", "pulseaudio", "battery", "clock"],
 
-  // Module Configuration
   "hyprland/window": {
     "swap-icon-label": false,
   },
 
-  //Right Module Configuration
+  //RIGHT MODULES CONFIGURATION
   "clock": {
     "format": "{:%a, %b %d, %I:%M%p}",
   },
