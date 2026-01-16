@@ -1,0 +1,40 @@
+{
+  "layer": "top",
+
+  "modules-left": ["hyprland/window"],
+  "hyprland/window": {
+    "max-length": 50,
+  },
+
+  "modules-center": ["hyprland/workspaces"],
+  "modules-right": ["memory", "network", "pulseaudio", "battery", "clock"],
+  "memory": {
+    "interval": 30,
+    "format": "{}% ",
+  },
+  "network": {
+    "format-wifi": "{signalStrength}% ",
+    "format-ethernet": "{ifname} ",
+    "format-disconnected": "",
+    "max-length": 50,
+  },
+  "pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-bluetooth": "{volume}% {icon}",
+    "format-muted": "",
+    "format-icons": {
+      "headphone": "",
+      "headset": "",
+      "default": ["", ""],
+    },
+    "scroll-step": 1,
+    "ignored-sinks": ["Easy Effects Sink"],
+  },
+  "battery": {
+    "format": "{capacity}% {icon}",
+    "format-icons": ["", "", "", "", ""],
+  },
+  "clock": {
+    "format-alt": "{:%a, %d. %b  %H:%M}",
+  },
+}

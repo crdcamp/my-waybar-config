@@ -1,0 +1,21 @@
+// MODULES: GENERAL
+{
+  //"include": "~/.config/waybar/modules.jsonc",
+  //"style": "~/.config/waybar/style.css",
+  "layer": "top", // Waybar at top layer
+  "height": 27, //
+  "spacing": 4, // Gaps between modules in pixels
+  "modules-left": ["hyprland/window"], // Title of the current active window
+  "modules-center": ["hyprland/workspaces"], // Numbers for workspaces
+  "modules-right": ["clock"],
+
+  // Module Configuration
+  "hyprland/window": {
+    "swap-icon-label": false,
+  },
+
+  //Right Module Configuration
+  "clock": {
+    "format": "{:%a, %b %d, %I:%M%p}",
+  },
+}
