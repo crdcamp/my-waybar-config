@@ -7,18 +7,19 @@
   "spacing": 4, // Gaps between modules in pixels
   "modules-left": ["hyprland/window"], // Title of the current active window
   "modules-center": ["hyprland/workspaces"], // Numbers for workspaces
-  "modules-right": ["memory", "backlight", "pulseaudio", "battery", "clock"],
+  "modules-right": ["memory", "pulseaudio", "battery", "clock"],
 
+  // LEFT MODULES CONFIGURATION
   "hyprland/window": {
     "swap-icon-label": false,
+    "max-length": 50,
   },
+
+  // CENTER MODULES CONFIGURATION
 
   //RIGHT MODULES CONFIGURATION
   "memory": {
     "format": "Memory: {}%",
-  },
-  "backlight": {
-    "format": "Backlight: {}%",
   },
   "pulseaudio": {
     "format": "Volume: {volume}%",
