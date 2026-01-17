@@ -67,12 +67,11 @@ window#waybar {
 }
 
 /*WORKSPACE BUTTONS*/
-#workspaces button {
-    padding: 0;
-    margin: 0 3px;
-    background: transparent;
-    border: none;
-    color: @error;
-    border-radius: 6px;
-    transition: all 0.2s ease;
+#workspaces button.active {
+    background-color: @inverse_primary;
+    color: @on_primary;
+}
+
+#workspaces button:hover {
+    background-color: @on_secondary;
 }
