@@ -7,7 +7,7 @@
   "spacing": 4, // Gaps between modules in pixels
   "modules-left": ["hyprland/window"], // Title of the current active window
   "modules-center": ["hyprland/workspaces"], // Numbers for workspaces
-  "modules-right": ["memory", "pulseaudio", "network", "battery", "clock"],
+  "modules-right": ["memory", "network", "battery", "clock"],
 
   // LEFT MODULES CONFIGURATION
   "hyprland/window": {
@@ -20,9 +20,6 @@
   //RIGHT MODULES CONFIGURATION
   "memory": {
     "format": "Memory: {}%",
-  },
-  "pulseaudio": {
-    "format": "Volume: {volume}%",
   },
   "network": {
     "format-wifi": "Wi-Fi: {signalStrength}%",
