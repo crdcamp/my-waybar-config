@@ -4,7 +4,7 @@
   //"style": "~/.config/waybar/style.css",
   "layer": "top", // Waybar at top layer
   "height": 34, //
-  "spacing": 5, // Gaps between modules in pixels
+  "spacing": 10, // Gaps between modules in pixels
   "modules-left": ["hyprland/window"], // Title of the current active window
   "modules-center": ["hyprland/workspaces"], // Numbers for workspaces
   "modules-right": [
@@ -28,15 +28,16 @@
   //RIGHT MODULES CONFIGURATION
   "temperature": {
     "hwmon-path": "/sys/devices/platform/coretemp.0/hwmon/hwmon6/temp1_input",
-    "format": "Temp: {temperatureC}°C-",
+    "format": "Temp: {temperatureC}°C",
   },
   "memory": {
-    "format": "Memory: {}%-",
+    "format": "{}% ",
   },
   "network": {
-    "format-wifi": "Wi-Fi: {signalStrength}%-",
+    "format-wifi": "{signalStrength}% ",
   },
   "pulseaudio": {
+    "format": "{volume}% {icon}",
     "format-muted": "",
     "format-icons": {
       "headphone": "",
