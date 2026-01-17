@@ -24,11 +24,25 @@
   },
 
   // CENTER MODULES CONFIGURATION
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "1": "",
+    "2": "",
+    "3": "",
+    "4": "",
+    "5": "",
+    "6": "",
+    "7": "",
+    "8": "",
+    "9": "",
+    "default": "",
+    "active": "",
+  },
 
   //RIGHT MODULES CONFIGURATION
   "temperature": {
     "hwmon-path": "/sys/devices/platform/coretemp.0/hwmon/hwmon6/temp1_input",
-    "format": "Temp: {temperatureC}°C",
+    "format": "{temperatureC}°C",
   },
   "memory": {
     "format": "{}% ",

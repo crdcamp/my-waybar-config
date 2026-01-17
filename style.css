@@ -65,3 +65,14 @@ window#waybar {
     padding-left: 0px;
     padding-right: 0px;
 }
+
+/*WORKSPACE BUTTONS*/
+#workspaces button {
+    padding: 0;
+    margin: 0 3px;
+    background: transparent;
+    border: none;
+    color: @error;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
