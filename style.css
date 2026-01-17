@@ -1,11 +1,31 @@
 @import "colors.css";
 
+/*GENERAL*/
 * {
     font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     color: @on_primary_container;
+    border-radius: 12px;
 }
 
 window#waybar {
     background-color: @background;
+    opacity: 0.85;
 }
+
+/*RIGHT MODULES*/
+.modules-left {
+    margin-left: 10px;
+}
+
+.modules-right {
+    margin-right: 10px;
+}
+
+/*#temperature,
+#memory,
+#network,
+#pulseaudio,
+#battery,
+#clock
+#custom-power*/

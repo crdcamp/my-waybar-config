@@ -4,13 +4,14 @@
   //"style": "~/.config/waybar/style.css",
   "layer": "top", // Waybar at top layer
   "height": 34, //
-  "spacing": 4, // Gaps between modules in pixels
+  "spacing": 5, // Gaps between modules in pixels
   "modules-left": ["hyprland/window"], // Title of the current active window
   "modules-center": ["hyprland/workspaces"], // Numbers for workspaces
   "modules-right": [
     "temperature",
     "memory",
     "network",
+    "pulseaudio",
     "battery",
     "clock",
     "custom/power",
@@ -27,22 +28,31 @@
   //RIGHT MODULES CONFIGURATION
   "temperature": {
     "hwmon-path": "/sys/devices/platform/coretemp.0/hwmon/hwmon6/temp1_input",
-    "format": "Temp: {temperatureC}°C - ",
+    "format": "Temp: {temperatureC}°C-",
   },
   "memory": {
-    "format": "Memory: {}% - ",
+    "format": "Memory: {}%-",
   },
   "network": {
-    "format-wifi": "Wi-Fi: {signalStrength}% - ",
+    "format-wifi": "Wi-Fi: {signalStrength}%-",
+  },
+  "pulseaudio": {
+    "format-muted": "",
+    "format-icons": {
+      "headphone": "",
+      "headset": "",
+      "default": ["", ""],
+    },
   },
   "battery": {
-    "format": "Battery: {}% - ",
+    "format": "{capacity}% {icon}",
+    "format-icons": ["", "", "", "", ""],
   },
   "clock": {
     "format": "{:%a, %b %d, %H:%M%p}",
   },
   "custom/power": {
-    "format": " ⏻ ",
+    "format": "⏻",
     "tooltip": false,
   },
 }
