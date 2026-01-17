@@ -39,7 +39,7 @@
     "format": "Battery: {}% - ",
   },
   "clock": {
-    "format": "{:%a, %b %d, %I:%M%p}",
+    "format": "{:%a, %b %d, %H:%M%p}",
   },
   "custom/power": {
     "format": " ⏻ ",
